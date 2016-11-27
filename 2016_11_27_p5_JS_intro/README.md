@@ -14,24 +14,20 @@ This workshop will introduce the p5 javascript library, which follows in the foo
 
 ### PLAN
 
-#### Intro 
-	* Me
-	* Mashups
-
 #### Javascript
-	* What is it? 
-	* Why do we care about it?
-	* How does it work?
+* What is it? 
+* Why do we care about it?
+* How does it work?
 
 #### The Browser and The Web
-	* Interprets JS
-	* Play around in the console
+* Interprets JS
+* Play around in the console
 	
 #### p5
-	* What is it?
-	* Canvas tag
-	* Look at documentation
-	* Run basic exercise example
+* What is it?
+* Canvas tag
+* Look at documentation
+* Run basic exercise example
 	
 #### Exercise - Smiley Face
 
