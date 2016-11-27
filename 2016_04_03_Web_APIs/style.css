@@ -1,0 +1,35 @@
+body{
+	font-family: Arial;
+	background-color: aqua;
+}
+
+h1{
+	text-align: center;
+}
+
+.main-text{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+
+#container{
+	width: 300px;
+	margin: 10px auto;
+}
+
+#the-input{
+	width: 70%;
+}
+#the-button{
+	width: 25%;
+}
+
+#the-temp{
+	font-size: 48px;
+	text-align: center;
+}
+
+
+
+
