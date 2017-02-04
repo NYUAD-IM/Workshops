@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{FD64724C-0488-C2BA-DAAA-179941400BBF}") = "2016_12_04_IntroToUnity", "Assembly-CSharp.csproj", "{55168AFE-D517-AE74-CF51-33550EC176DA}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016_12_04_IntroToUnity", "Assembly-CSharp.csproj", "{55168AFE-D517-AE74-CF51-33550EC176DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
