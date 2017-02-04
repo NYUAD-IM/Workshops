@@ -12,4 +12,8 @@ This is an easy process, which can be done in the command line:
 5. [Navigate](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855) to your directory in the Terminal.
 6. In the Terminal, type in `python -m SimpleHTTPServer`. You should get a message similar to `Serving HTTP on 0.0.0.0 port 8000 ...`
 7. Open your browser, and type `localhost:8000` in your URL bar. It should automatically serve any `index.html` file in your present working directory.
->>>>>>> 74a04a68a0a8d77550b94fe5f0d2f9dd6d4e1291
+
+
+### Download
+
+You can get the ToneJS library [here](https://tonejs.github.io/build/Tone.js).
