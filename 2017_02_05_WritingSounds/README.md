@@ -6,6 +6,7 @@ Since we are going to be loading files in our JS script, and some browsers consi
 This is an easy process, which can be done in the command line:
 1. Open the terminal (OSX) or the Console (Windows).
 2. Type in `which python`.
-3. If something similar to `/usr/bin/python` shows up, you're fine!
+3. If something similar to `/usr/bin/python` shows up, you're fine! (skip to step 5)
 4. If nothing shows up, please [download](https://www.python.org/downloads/) Python.
-use `python -m SimpleHTTPServer` for serving files, it is [built-in](https://milocast.com/pyhttp.html)
+5. In the Terminal, type in `python -m SimpleHTTPServer`. You should get a message similar to `Serving HTTP on 0.0.0.0 port 8000 ...`
+6. Open your browser, and type `localhost:8000` in your URL bar.
