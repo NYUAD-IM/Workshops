@@ -1,5 +1,6 @@
 <html>
 <head>
+  <title>hello tone</title>
   <link rel="stylesheet" href="style.css" />
   <script type="text/javascript" src="lib/Tone.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
@@ -24,9 +25,13 @@
 
 <h3>synth note</h3>
 <button onclick="playNote()">play note</button>
-<input type="checkbox" name="autoplay" value="on" onchange="loopNote()">Loop note<br>
+<h5>pattern</h5>
 <button onclick="repeatNote()">repeat note</button><br />
+<button onclick="repeatOtherNote()">repeat other note</button><br />
 <hr />
+<h5>filter</h5>
+<hr/>
+</hr/>
 <button onclick="stopTransport()">stop all</button>
 </body>
 </html>

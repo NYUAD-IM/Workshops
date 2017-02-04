@@ -73,12 +73,28 @@ function playNoteRandom(){
     note.triggerAttackRelease(500+Math.random()*1000, 0.25);
 }
 
+function playOtherNoteRandom(){
+  if(Math.random() > 0.25)
+    note.triggerAttackRelease(100+Math.random()*500, 0.25);
+}
+
 function repeatNote(){
   Tone.Transport.scheduleRepeat(function(time){
+    playOtherNoteRandom();
+  }, "0:2");
+  Tone.Transport.scheduleRepeat(function(time){
   	playNoteRandom();
-  }, "4n");
+  }, "0:2");
 
+  Tone.Transport.loop = true;
   Tone.Transport.start();
+}
+
+// TODO: figure out how we only play downbeat
+function repeatOtherNote(){
+  Tone.Transport.scheduleRepeat(function(time){
+    playOtherNoteRandom();
+  }, "0:2:2.5");
 }
 
 function stopTransport(){
