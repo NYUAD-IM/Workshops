@@ -7,3 +7,8 @@ socket.on('connect', function(){
 socket.on('start', function(){
   startPattern();
 });
+
+
+function start(){
+  socket.emit('start-pattern', 'go');
+}

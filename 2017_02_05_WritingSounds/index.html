@@ -3,6 +3,8 @@
   <title>hello tone</title>
   <link rel="stylesheet" href="style.css" />
   <script src="lib/Tone.min.js"></script>
+  <script src="socket.io.js"></script>
+  <script src="socket_connection.js"></script>
   <script src="composer.js"></script>
 </head>
 <body>
@@ -24,5 +26,7 @@ filter frequency value:
 <button onclick="playSharpNote()">play sharp note</button>
 <br />
 <button onclick="startPattern()">play pattern</button>
+<br />
+<button onclick="start()">MAIN SWITCH</button>
 </body>
 </html>
