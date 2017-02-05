@@ -2,36 +2,9 @@
 <head>
   <title>hello tone</title>
   <link rel="stylesheet" href="style.css" />
-  <script type="text/javascript" src="lib/Tone.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="init()">
+<body>
 <h1>tones</h1>
 
-<h3>sample playback</h3>
-<button onclick="playSample()">play sample!</button><br />
-<input type="range" min="0.1" max="2.0" value="1.0" step="0.01" oninput="changePlaybackRate(value)">1.0</input><br />
-<input type="checkbox" name="autoplay" value="on" onchange="toggleAutoplay()">Toggle auto-play<br>
-
-<hr />
-
-<h3>sample effects</h3>
-<input type="checkbox" name="autoplay" value="on" onchange="toggleReverb()">Toggle reverb<br>
-
-<input type="checkbox" name="autoplay" value="on" onchange="toggleDelay()">Toggle delay<br>
-
-
-<hr />
-
-<h3>synth note</h3>
-<button onclick="playNote()">play note</button>
-<h5>pattern</h5>
-<button onclick="repeatNote()">repeat note</button><br />
-<button onclick="repeatOtherNote()">repeat other note</button><br />
-<hr />
-<h5>filter</h5>
-<hr/>
-</hr/>
-<button onclick="stopTransport()">stop all</button>
 </body>
 </html>
