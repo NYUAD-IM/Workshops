@@ -2,8 +2,27 @@
 <head>
   <title>hello tone</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="lib/Tone.min.js"></script>
+  <script src="composer.js"></script>
 </head>
 <body>
 <h1>tones</h1>
+<button onclick="playSample()">play</button>
+<input type="range" min="0.2" max="2.0" value="1.0" step="0.01" onchange="adjustRate(value)"/>
+
+<input type="range" min="0.0" max="2.34" value="0.0" step="0.01" onchange="adjustLoopStart(value)"/>
+<input type="range" min="0.0" max="2.34" value="2.34" step="0.01" onchange="adjustLoopEnd(value)"/>
+
+<hr />
+
+<h1>notes</h1>
+
+<button onclick="playNote()">play note</button>
+filter frequency value:
+<input type="range" min="50.0" max="2000" value="300" step="0.01" onchange="adjustFrequency(value)"/>
+<br />
+<button onclick="playSharpNote()">play sharp note</button>
+<br />
+<button onclick="startPattern()">play pattern</button>
 </body>
 </html>
